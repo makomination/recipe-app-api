@@ -1,5 +1,5 @@
-From python:3.7-alpine
-MAINTAINER  Makoto Ishihara
+FROM python:3.7-alpine
+LABEL maintainer="Makoto Ishihara"
 
 ENV PYTHONUNBUFFRED 1
 COPY ./requirements.txt /requirements.txt
