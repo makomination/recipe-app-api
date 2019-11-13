@@ -8,4 +8,4 @@ Docker + Django でUnit Test を書きながらの開発。(TDD)
 `docker-compose up`
 
 ## unitテスト + linter(flake8)実行
-`docker-compose run --rm app sh -c "python manage.py test && flake8`
+`docker-compose run --rm app sh -c "python manage.py test && flake8"`
