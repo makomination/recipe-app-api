@@ -2,7 +2,8 @@
 レシピ情報のAPI開発
 
 ## 開発環境
-Docker + Django でUnit Test を書きながらの開発。(TDD)
+* Docker + Django でUnit Test を書きながらの開発。(TDD)
+* Travis CIとのpipeline構築
 
 ## 実行
 `docker-compose up`
